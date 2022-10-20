@@ -10,7 +10,7 @@ bot.help((ctx) => ctx.reply('Send me a sticker'))
 // custom commands
 
 bot.command("nihal", (ctx) => {
-  ctx.reply("do not disturb");
+  ctx.reply(" please do not disturb");
 })
 
 // repiies after receiving a sticker (event)
