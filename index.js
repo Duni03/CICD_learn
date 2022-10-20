@@ -19,7 +19,7 @@ bot.on('sticker', (ctx) => ctx.reply('👍'))
 
 // hears is used for text rather than tags
 
-bot.hears('hi', (ctx) => ctx.reply('Hey there'))
+bot.hears('hi', (ctx) => ctx.reply('Hey there you'))
 
 exports.handler = (event,context,callback) => {
   const tmp = JSON.parse(event.body);
