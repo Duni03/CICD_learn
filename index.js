@@ -7,7 +7,7 @@ const bot = new Telegraf("5738959061:AAGwOUxq4k-QKhf11UU5nO3XuaAslwCQ2pU")
 bot.start((ctx) => ctx.reply('Welcome'))
 bot.help((ctx) => ctx.reply('Send me a sticker'))
 
-// custom commands
+// custom command
 
 bot.command("nihal", (ctx) => {
   ctx.reply(" please do not disturb");
