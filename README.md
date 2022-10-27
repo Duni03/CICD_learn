@@ -1,2 +1,2 @@
 # CICD_learn
-yo work pls
+yo work 
