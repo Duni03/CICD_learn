@@ -2,7 +2,7 @@ const { Telegraf } = require('telegraf')
 
 const bot = new Telegraf("5738959061:AAGwOUxq4k-QKhf11UU5nO3XuaAslwCQ2pU")
 
-/// these are standard commands
+/// these are standard commands.
 
 bot.start((ctx) => ctx.reply('Welcome'))
 bot.help((ctx) => ctx.reply('Send me a sticker'))
