@@ -1,4 +1,4 @@
-FROM amazon/aws-lambda-nodejs:16
+FROM public.ecr.aws/lambda/nodejs:16
 COPY package.json .
 RUN npm i
 COPY . .
