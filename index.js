@@ -23,6 +23,7 @@ bot.hears('hi', (ctx) => ctx.reply('Hey there youu'))
 
 exports.handler = (event,context,callback) => {
   const tmp = event.body;
+  console.log(tmp);
   bot.handleUpdate(tmp);
   return callback(null, {
     statusCode: 200,
