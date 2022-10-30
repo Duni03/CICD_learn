@@ -22,7 +22,7 @@ bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hey there youu'))
 
 exports.handler = (event,context,callback) => {
-  const tmp = JSON.parse(event.body);
+  const tmp = event.body;
   bot.handleUpdate(tmp);
   return callback(null, {
     statusCode: 200,
